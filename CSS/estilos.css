@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(238, 146, 161);
+}
+
+nav{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:link{color: blue;}
+a:visited{color:rgb(209, 216, 112);}
+a:hover{color: lightgreen;}
+a:active{color: #000;}
+main{
+    text-align: center;
+   
+}
+input [type="text"], input[type="email"] { margin: 2px;}
+
+button{
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+}
+
+img{
+    width: 110px;
+    float: right;
+}
+
+footer button{
+    color: white; 
+    background-color: #1add6b;
+    border-radius: 80px;
+    border: none;
+    font-weight: bold;
+    float: center;
+}
+
+table{
+    border: 1px solid black ;
+}
+

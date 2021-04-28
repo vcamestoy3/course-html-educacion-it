@@ -1,0 +1,12 @@
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+caption{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+td{
+    border: solid blue 1px;
+    text-align: center;
+}

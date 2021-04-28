@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/estilos.css">
+   <link rel="stylesheet" href="css/estilosT.css">
     <title>Tablas e iframes</title>
 </head>
 <body>
@@ -14,27 +14,47 @@
 
     <nav>
         <a href="index.html">Ir a inicio</a>
+        <a href="Produccion_Musical.html" style="margin-left: 15px;">Ir a Producción Musical</a>
         <a href="Contacto.html" style="margin-left: 15px">Ir a Contacto</a>
     </nav>
 
     <main>
-        <tr>
-            <td>Item 1</td>
-            <td>Item <img src="img/violin.jpg" alt="musica" style="width: 100px;"> </td>
-            <td>Item 3</td>
-            <td>Item 4</td>
-            <td>Item 5</td>
-        </tr>
-        <tr>
-            <td>Item 6</td>
-            <td>Item 7</td>
-            <td>Item 8</td>
-            <td>Item 9</td>
-            <td>Item 10</td>
-        </tr>
+        
+        <table> 
+            <caption>Primera tabla</caption>
+            
+            <tr>
+                <td rowspan="2" >
+                    <table>
+                        <tr><td>1</td></tr>
+                        <tr><td>2</td></tr>
+                        <tr><td>3</td></tr>
+                    </table>
+                </td>
+                <td><img src="img/2112.jpg" alt="astronauta musical" style="width:100px;"></td>
+                <td> <iframe src="Produccion_Musical.html" frameborder="0"></iframe> </td>
+                <td><img src="img/nina.jpg" alt="niña tocando violín" style="width:100px;"></td>
+                <td>Item 5</td>
+            </tr>
+            <tr>
+                <td colspan="3"> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15904.731821059484!2d-74.08844800232022!3d4.738252689876299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sla%20colina!5e0!3m2!1ses-419!2sco!4v1619201112350!5m2!1ses-419!2sco" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </td>
+                <td>Item 8</td>
+            </tr>
+            <tr>
+                <td>Item 11</td>
+                <td>Item 12</td>
+                <td>Item 13</td>
+                <td colspan="2"> Sinfonía n.º 40 en sol menor <br> <br>
+                    <iframe width="310" height="235" src="https://www.youtube.com/embed/-hJf4ZffkoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
     </main>
     <footer>
-
+        <a href="mailto:info@miweb.com">Contacto via email</a> <br>
+        <a href="https://www.freepik.es/vectores/logo"> Imagenes creadas por - www.freepik.es</a>
     </footer>
 </body>
 </html>
